@@ -19,5 +19,17 @@ stage('Deploy') {
    sh 'echo "Ak Deploying the application"'
    }
   }
+stage('Test') {
+  steps {
+  // Deploy the application (replace with your deployment commands)
+   sh 'echo "Testing the application"'
+   }
+  }
+stage('Result') {
+  steps {
+  // Deploy the application (replace with your deployment commands)
+   sh 'echo "Ak show results the application"'
+   }
+  }
  }
 }
